@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 用户登录注册页面</title>
+	<meta charset="utf-8">
+</head>
+<body>	
+	<table border="1" cellspacing="0">
+	<form>
+		<tr> <td width="79" bgcolor="#FFFFFF">    用户名：</td>
+		     <td  width="79" bgcolor="#FFFFFF">   <input type="text" name="name">   </td><br>
+		</tr> 
+		<tr> <td width="79" bgcolor="#FFFFFF">密码： </td>
+		     <td width="79" bgcolor="#FFFFFF"><input type="password" name="pass"> </td><br>
+		</tr>
+		<tr> <td width="79" bgcolor="#FFFFFF"> 确认密码：</td>
+		 <td width="79" bgcolor="#FFFFFF"> <input type="password" name="pass"> </td> <br>
+		</tr>
+		<tr> <td width="79" bgcolor="#FFFFFF">性别：</td>
+		<td width="79" bgcolor="#FFFFFF"><input type="radio"  value="Male"  name= " sex " checked= " checked " />男  
+		 <input type="radio"  value="feMale"  name= " sex "  />女 </td> <br>
+		</tr>
+
+		<tr><td width="79" bgcolor="#FFFFFF"> 生日：</td>
+		 <td width="79" bgcolor="#FFFFFF"><select name="birthday">
+		<option value="one" selected="selected"> 公历 </option>
+		<option value="two" > 农历 </option>
+		</select> 
+		
+		 <select name="year">
+		<option value="one" selected="selected">年 </option>
+		<option value="two" > 1998 </option>
+		</select>
+		<select name="month" >
+		<option value="one" selected="selected">月 </option>
+		<option value="two" > 1 </option>
+		<option value="three" > 2 </option>
+		<option value="four" > 3 </option>
+		</select>
+		<select name="day">
+		<option value="one" selected="selected">日 </option>
+		<option value="two" > 1 </option>
+		<option value="three" > 2 </option>
+		<option value="four" > 3 </option>
+		</select> </td></tr><br>
+
+		<tr><td width="79" bgcolor="#FFFFFF">所在地：</td>
+		<td width="79" bgcolor="#FFFFFF"><select name="diqu">
+		<option value="one" selected="selected">中国 </option>
+		<option value="two" > 外国 </option>
+		</select>
+		<select name="sheng">
+		<option value="one" selected="selected"> 河北 </option>
+		<option value="two" > 北京 </option>
+		<option value="three" > 外省 </option>
+		</select>
+		<select name="shi">
+		<option value="one" selected="selected">石家庄 </option>
+		<option value="two" >  邢台</option>
+		<option value="three" > 邯郸 </option>
+		</select>
+
+		<tr><td width="79" bgcolor="#FFFFFF">验证码：</td>
+		<td width="79" bgcolor="#FFFFFF"><input type="text" name="name2">
+		<img src="ima/11.jpg" width="70" height="35"></td></tr>
+		<br>
+
+		<tr><td width="79" bgcolor="#FFFFFF">证件类型：	</td>	
+		<td width="79" bgcolor="#FFFFFF"><select name="credit"><br>
+		<option value="one" selected="selected">身份证 </option><br>
+		</select></td> </tr><br>
+		<tr><td width="79" bgcolor="#FFFFFF">证件号：</td>
+		<td width="79" bgcolor="#FFFFFF"><input type="text" name="name1"></td></tr><br>
+		<tr> <td width="79" bgcolor="#FFFFFF">爱好：</td>
+		<td width="79" bgcolor="#FFFFFF"><input type="checkbox" name="hobby" value="music"> 音乐
+		<input type="checkbox" name="hobby" value="book"> 读书
+		<input type="checkbox" name="hobby" value="dance"> 跳舞
+		<input type="checkbox" name="hobby" value="chess"> 下棋
+		<input type="checkbox" name="hobby" value="others"> 其他</td></tr><br>
+		<tr><td width="79" bgcolor="#FFFFFF">说明：</td>
+		<td width="79" bgcolor="#FFFFFF"><textarea name="cat " rows="3" cols= " 30"> 
+		</textarea></td> </tr><br>
+		<tr><td width="79" bgcolor="#FFFFFF">上传头像：</td>
+		<td width="79" bgcolor="#FFFFFF"><input type="file" name="files"/> </td></tr><br>
+		
+		<tr> <td width="79" bgcolor="#FFFFFF" colspan="2" align="middle">
+		<input type="submit" value= " 提交" name= "sub" /> 
+		<input type="reset"  value="重置" name="reset">
+		<input type="button" value= "按钮 "  name= "but" /> </td> </tr>
+		
+
+
+
+
+
+	</form>
+
+	</table>
+</body>
+</html>
