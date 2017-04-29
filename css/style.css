@@ -1,0 +1,15 @@
+p{
+		color: red;
+		font-size:  100px;
+		font-family: "华文彩云" ;
+		font-weight: 900;
+		text-indent: 2em;
+		text-align: left;
+	}
+	.yep{color: yellow; font-size: 70px; font-family: kaiti;}
+	ul{color: pink;font-size: 50px;font-family: "幼圆";}
+	.y{color: orange;}
+	#pup{color: purple ;font-size:60px; font-family: "华文隶书"}
+	#greep{color: green;font-size:60px; font-family: "哈哈体","幼圆"}
+	div{font-size: 100px;}
+	ul{font-size: 2em;}

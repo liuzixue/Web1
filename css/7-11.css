@@ -1,0 +1,6 @@
+	ul,p,a{
+		font-size: 16px;
+	}
+	#one{color: blue;font-size: 12px;}
+	#two{color: black; font-size: 12px;}
+	.three{color: green;}
