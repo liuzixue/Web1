@@ -1,0 +1,176 @@
+body{
+		background-image: url(ima6/32.jpg);
+		background-size: 1920px 1500px;
+	}
+	a{
+		list-style: none;
+		text-decoration: none;
+		color: #CCCCCC ;
+	}
+	a:hover{color: yellow;}
+	div.top{
+		background-image: url(ima6/17.jpg);
+		width: 1500px;
+		height: 400px;
+		background-size: 1280px 365px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: black ;
+	}
+	div.daohang {
+		font-size:30px;
+		width: 1250px;
+		height: 50px;
+		float: left;
+		text-align: center;
+		border:10px;
+	}
+	.shouye{
+		width: 220px;
+		height: 30px;
+		float: left;
+	}
+	.renwu{
+		width: 200px;
+		height: 30px;
+		float: left;
+	}
+	.juqing{
+		width: 200px;
+		height: 30px;
+		float: left;
+	}
+	.zhanyi{width: 200px;
+		height: 30px;
+		float: left;
+	}
+	.manhua{width: 200px;
+		height: 30px;
+		float: left;
+	}
+	.fenxi{width: 200px;
+		height: 30px;
+		float: left;
+	}
+
+	div.center{
+		height: 1400px;
+		height: 420px;
+		text-align: center;
+		border: 30px;
+	}
+	div.center img{opacity: 0.7;}
+	div.center a:hover img{opacity: 1;}
+	.sosuo{
+		width: 50px;
+		height: 5px;
+		float: left;
+	}
+	#button{
+		width: 44px;
+		height: 21px;
+		background-color: #000;
+		color: #fff;
+		border: 1px  solid  #f8f5ee;
+	}
+
+	.jieshao{
+		border:1px solid;
+		width: 400px;
+		height: 500px;
+		float: left;
+		text-align: center;
+		color: white;
+		
+	}
+	.jieshao_1{
+		color:#8B6508;
+		text-align: center;
+		height: 400px;
+		height: 50px;
+		font-size: 25px;
+	}
+	.jieshao_2{
+		width: 400px;
+		height: 170px;
+		border-top: 10px;
+		text-align: center;
+	}
+	div.jieshao_2 img{
+		width: 300px;
+		height: 160px;
+	}
+	.jieshao_3{
+		font-size: 17px;
+	}
+	.chuanyuan{
+		border:1px solid;
+		width: 400px;
+		height: 500px;
+		float: left;
+		text-align: center;
+		position: absolute;
+		left: 500px;
+		color: white;
+	}
+	.chuanyuan_1{
+		text-align: center;
+		height: 400px;
+		height: 50px;
+		font-size: 25px;
+		color:#8B6508;
+	}
+	.zuozhe {border:1px solid;
+		width: 400px;
+		height: 500px;
+		float: left;
+		text-align: center;
+		position: absolute;
+		left: 1000px;
+		color: white;
+	}
+	.zuozhe_1{
+		color:#8B6508;
+		text-align: center;
+		height: 400px;
+		height: 50px;
+		font-size: 25px;
+	}
+	.zuozhe_2{
+	width: 400px;
+		height: 170px;
+		border-top: 10px;
+		text-align: center;
+	}
+	div.zuozhe_2 img{
+		width: 300px;
+		height: 160px;
+	}
+	.zuozhe_3{
+		font-size: 17px;
+	}
+	.jieshaoha{
+		width: 1500px;
+		height: 500px;
+	}
+
+	.foot{
+		width: 1485px;
+		height: 150px;
+		
+	}
+	.foot_top{
+		text-align: center;
+		font-size: 15px;
+		color:#CCCCFF ;
+	}
+	.foot_center{
+		width: 600px;
+		height: 1px;
+		
+	}
+	.foot_bottom{
+		text-align: center;
+		font-size: 15px;
+		color:#CCCCFF ;
+	}
